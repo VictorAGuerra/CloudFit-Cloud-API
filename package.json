@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorAGuerra/CloudFit-Cloud-API.git"
+  },
+  "author": "VictorAGuerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorAGuerra/CloudFit-Cloud-API/issues"
+  },
+  "homepage": "https://github.com/VictorAGuerra/CloudFit-Cloud-API#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
