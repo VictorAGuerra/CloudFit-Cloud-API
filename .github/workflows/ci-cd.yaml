@@ -20,12 +20,9 @@ jobs:
 
       - name: Instalar dependências
         run: npm install
-        working-directory: ./cloudfit
 
       - name: Build da imagem Docker
-        run: |
-          docker build -t cloudfit:1.0 .
-        working-directory: ./cloudfit
+        run: docker build -t cloudfit-api:1.0 .
 
       - name: Login no Docker Hub (simulado)
         run: echo "Login no registry realizado"
